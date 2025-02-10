@@ -94,10 +94,10 @@
 
         navigation {
             bindings = <
-&none  &none  &kp HOME  &kp UP  &kp END    &kp PAGE_UP      &none  &none      &none      &none     &none     &none
-&none  &none  &kp LEFT  &kp UP  &kp RIGHT  &kp PAGE_DOWN    &none  &kp LSHFT  &kp LCTRL  &kp LGUI  &kp LALT  &none
-&none  &none  &none     &none   &none      &none            &none  &none      &none      &none     &none     &none
-                        &none   &none      &none            &none  &none      &none
+&none  &none  &kp HOME  &kp UP    &kp END    &kp PAGE_UP      &none  &none      &none      &none     &none     &none
+&none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN    &none  &kp LSHFT  &kp LCTRL  &kp LGUI  &kp LALT  &none
+&none  &none  &none     &none     &none      &none            &none  &none      &none      &none     &none     &none
+                        &none     &none      &none            &none  &none      &none
             >;
         };
 
