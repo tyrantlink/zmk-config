@@ -41,8 +41,6 @@
             #binding-cells = <0>;
             bindings = <&kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp Y &kp O &kp U &kp T &kp U &kp DOT &kp B &kp E &kp FSLH &kp D &kp LS(Q) &kp W &kp N4 &kp W &kp N9 &kp LS(W) &kp G &kp LS(X) &kp C &kp LS(Q)>;
             label = "RICK";
-            wait-ms = <1>;
-            tap-ms = <1>;
         };
     };
 
@@ -79,7 +77,7 @@
         mouse {
             bindings = <
 &none  &none  &none  &none  &none  &none    &none         &mkp MB4        &mmv MOVE_UP    &mkp MCLK        &none            &none
-&none  &none  &none  &none  &none  &none    &kp LC(LEFT)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5         &kp LC(RIGHT_ARROW)
+&none  &none  &none  &none  &none  &none    &kp LC(LEFT)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5         &kp LC(RIGHT)
 &none  &none  &none  &none  &none  &none    &none         &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN   &msc SCRL_RIGHT  &none
                      &none  &none  &none    &none         &mkp LCLK       &mkp RCLK
             >;
