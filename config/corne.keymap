@@ -77,10 +77,10 @@
 
         mouse {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &mkp MB4        &mmv MOVE_UP    &mkp MCLK        &none            &none
-&none  &none  &none  &none  &none  &none    &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5         &none
-&none  &none  &none  &none  &none  &none    &none  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN   &msc SCRL_RIGHT  &none
-                     &none  &none  &none    &none  &mkp LCLK       &mkp RCLK
+&none  &none  &none  &none  &none  &none    &none         &mkp MB4        &mmv MOVE_UP    &mkp MCLK        &none            &none
+&none  &none  &none  &none  &none  &none    &kp LC(LEFT)  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5         &kp LC(RIGHT_ARROW)
+&none  &none  &none  &none  &none  &none    &none         &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN   &msc SCRL_RIGHT  &none
+                     &none  &none  &none    &none         &mkp LCLK       &mkp RCLK
             >;
         };
 
