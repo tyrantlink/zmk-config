@@ -58,7 +58,7 @@
             bindings = <
 &none  &kp EXCL   &kp AT            &kp HASH        &kp DLLR              &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LS(MINUS)      &kp EQUAL  &none
 &none  &kp MINUS  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LT       &kp GT     &kp RPAR  &kp RBRC  &kp RIGHT_BRACKET  &kp PLUS   &none
-&none  &none      &none             &none           &none                 &none        &none      &none     &none     &none              &none      &none
+&none  &none      &none             &none           &none                 &kp PIPE     &none      &none     &none     &none              &none      &none
                                     &none           &none                 &none        &none      &none     &none
             >;
         };
