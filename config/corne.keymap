@@ -78,10 +78,10 @@
 
         layer_0 {
             bindings = <
-&trans  &kp Q               &kp W               &kp F                   &kp P                 &kp B           &kp J        &kp L                  &kp U                    &kp Y                &kp SEMI             &trans
-&trans  &lh_hrm LEFT_ALT A  &lh_hrm LEFT_GUI R  &lh_hrm LEFT_CONTROL S  &lh_hrm LEFT_SHIFT T  &kp G           &kp M        &rh_hrm RIGHT_SHIFT N  &rh_hrm RIGHT_CONTROL E  &rh_hrm RIGHT_GUI I  &rh_hrm RIGHT_ALT O  &trans
-&trans  &kp Z               &kp X               &kp C                   &kp D                 &kp V           &kp K        &kp H                  &kp COMMA                &kp DOT              &kp FSLH             &trans
-                                                &lt 1 TAB               &lt 2 SPACE           &lt 3 ESCAPE    &lt 4 ENTER  &lt 5 BACKSPACE        &lt 6 SQT
+&none  &kp Q               &kp W               &kp F                   &kp P                 &kp B           &kp J        &kp L                  &kp U                    &kp Y                &kp SEMI             &none
+&none  &lh_hrm LEFT_ALT A  &lh_hrm LEFT_GUI R  &lh_hrm LEFT_CONTROL S  &lh_hrm LEFT_SHIFT T  &kp G           &kp M        &rh_hrm RIGHT_SHIFT N  &rh_hrm RIGHT_CONTROL E  &rh_hrm RIGHT_GUI I  &rh_hrm RIGHT_ALT O  &none
+&none  &kp Z               &kp X               &kp C                   &kp D                 &kp V           &kp K        &kp H                  &kp COMMA                &kp DOT              &kp FSLH             &none
+                                               &lt 1 TAB               &lt 2 SPACE           &lt 3 ESCAPE    &lt 4 ENTER  &lt 5 BACKSPACE        &lt 6 SQT
             >;
         };
 
@@ -132,10 +132,10 @@
 
         macros {
             bindings = <
-&none  &rick  &none  &none    &none      &none         &none         &none          &none         &none         &bt BT_CLR    &none
-&none  &none  &none  &none    &none      &none         &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
-&none  &none  &none  &none    &none      &none         &none         &none          &none         &none         &none         &none
-                     &kp TAB  &kp SPACE  &kp ESCAPE    &kp RETURN    &kp BACKSPACE  &none
+&none  &rick          &none         &none             &none           &none         &none         &none          &none         &none         &bt BT_CLR    &none
+&none  &sk LEFT_META  &sk LEFT_GUI  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &none         &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
+&none  &none          &none         &none             &none           &none         &none         &none          &none         &none         &none         &none
+                                    &kp TAB           &kp SPACE       &kp ESCAPE    &kp RETURN    &kp BACKSPACE  &none
             >;
         };
 
