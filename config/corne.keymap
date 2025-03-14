@@ -21,6 +21,7 @@
 &sk {
     lazy;
     quick-release;
+    release-after-ms = <0>;
 };
 
 / {
